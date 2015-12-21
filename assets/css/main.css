@@ -1,0 +1,470 @@
+    .company-name {
+        position: absolute;
+        z-index: 1000;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+        color: white;
+    }
+    
+    .company-name h1 {
+        font-size: 50px;
+    }
+    
+    .desc {
+        font-size: 20px;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    
+    .top-part-m {
+        display: block;
+        width: 100%;
+        position: absolute;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .hover-content {
+        position: relative;
+    }
+    
+    .over {
+        display: block;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        position: absolute;
+        background-color: #000000;
+    }
+    
+    .product {
+        overflow: hidden;
+        min-height: 180px;
+        display: block;
+        padding: 10px 20px 0px 20px;
+        background-color: white;
+        text-align: center;
+        word-break: break-all;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .product ul {
+        padding-left: 0px;
+    }
+    
+    .give-rate {}
+    
+    .give-rate ul {
+        padding-left: 40px;
+    }
+    
+    .give-rate ul li i {
+        cursor: pointer;
+    }
+    
+    .give-rate ul li .fa-4 {
+        color: #b7b7b7;
+    }
+    
+    .service {
+        position: relative;
+        min-height: 180px;
+        display: block;
+        padding: 10px 20px 0px 20px;
+        color: white;
+        background-color: #1a99aa;
+        text-align: center;
+    }
+    
+    .service ul {
+        padding-left: 0px;
+    }
+    
+    .read-more {
+        left: 0px;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        /*        background-color: rgba(62, 62, 62, 0.7);*/
+        border-top: 1px solid #b7b7b7;
+        padding: 10px 0px;
+        text-align: left;
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .thatsall {
+        left: 0px;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        /*        background-color: rgba(62, 62, 62, 0.7);*/
+        border-top: 1px solid #b7b7b7;
+        padding: 10px 0px;
+        text-align: left;
+        font-size: 10px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .arr-all {
+        cursor: pointer;
+    }
+    
+    .payment {
+        display: block;
+        padding: 10px 20px 0px 20px;
+        background-color: white;
+        text-align: center;
+        min-height: 180px;
+        position: relative;
+    }
+    
+    .payment ul {
+        padding-left: 0px;
+    }
+    
+    .sections-lg {
+        padding: 20px 0px 40px 0px;
+    }
+    
+    .sy-controls,
+    .sy-pager {
+        position: absolute;
+        z-index: 1000;
+    }
+    
+    .fa-star {
+        color: yellow;
+    }
+    
+    .fa-4 {
+        color: white;
+    }
+    
+    .rating-1,
+    .rating-2,
+    .rating-3,
+    .rating-5,
+    .rating-0 {
+        display: none;
+    }
+    
+    .list-in .rate {
+        min-width: 35%;
+        cursor: auto;
+    }
+    
+    .section-ba {
+        overflow: hidden;
+    }
+    
+    .outer-slide {
+        display: inline-block;
+        /*        width: 20000px;*/
+        position: relative;
+        padding-left: 40px;
+    }
+    
+    .rate-user {
+        text-align: center;
+        display: inline-block;
+        margin-right: auto;
+        cursor: auto;
+        padding: 5px 10px 5px 15px !important;
+        margin-left: auto;
+        margin-bottom: 5px;
+        background-color: transparent;
+    }
+    
+    .rate-user:hover {
+        background-color: transparent;
+        border: 0px;
+    }
+    
+    .line-white {
+        border-top: 1px solid #c9c9c9;
+    }
+    
+    .list-in {
+        padding-left: 0px;
+        margin-top: -20px;
+    }
+    
+    .map {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    
+    #map {
+        display: block;
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        right: 0;
+        width: 70%;
+        height: 380px;
+        box-shadow: 1px 0px 5px #b2b2b2;
+    }
+    
+    .Review-form input[type=text] {
+        width: 40%;
+        padding: 2px 5px;
+    }
+    
+    .Review-form h3 {
+        margin: 0px;
+        color: white;
+    }
+    
+    .Review-form {
+        margin-top: 0px !important;
+        padding: 40px 0px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .review-box {
+        margin-top: 20px;
+    }
+    
+    .review-box textarea {
+        width: 40%;
+        height: 200px;
+        padding: 2px 5px;
+    }
+    
+    ::-webkit-input[type=text]-placeholder {
+        padding: 0px !important;
+        padding: 2px 5px;
+        line-height: normal;
+    }
+    
+    .fa-c {
+        color: #c1c1c1;
+    }
+    
+    .in {
+        display: inline-block;
+        margin: 40px 20px;
+        position: relative;
+    }
+    
+    .review-box {
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .col-before-2,
+    .col-after-2 {
+        display: inline;
+        width: 200px;
+        height: 150px;
+        position: relative;
+        float: left;
+    }
+    
+    .in img {
+        width: 200px;
+    }
+    
+    .l-arr {
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+        left: 0;
+        padding: 113px 10px;
+        display: block;
+        height: 238px;
+        cursor: pointer;
+    }
+    
+    .r-arr {
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+        right: 0;
+        padding: 113px 10px;
+        display: block;
+        height: 238px;
+        cursor: pointer;
+    }
+    
+    .down-part-m {
+        position: absolute;
+        width: 100%;
+        z-index: 900;
+        display: block;
+        bottom: 0px;
+        height: 40px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .down-part-m h3 {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    
+    .gap {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+    .service-details {
+        display: block;
+        padding: 10px 40px 30px 40px;
+        background-color: white;
+        margin: 0px 40px;
+        text-align: center;
+    }
+    
+    .reviews {
+        text-align: center;
+        width: 400px;
+    }
+    
+    .reviews h2 {
+        margin-top: 0px;
+    }
+    
+    span.clear {
+        clear: left;
+        display: block;
+    }
+    
+    .review-card {
+        top: 0px;
+        text-align: center;
+        display: inline-block;
+        padding: 0px 40px 10px 40px;
+        text-align: center;
+        vertical-align: top;
+        position: relative;
+        width: 400px;
+        word-wrap: break-word;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .user-img {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        border-radius: 50% 50%;
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        display: block;
+    }
+    
+    .user-img img {
+        width: 300px;
+    }
+    
+    .user-review {
+        text-align: center;
+        display: block;
+        /*        position: absolute;*/
+        padding: 10px 40px 30px 40px;
+    }
+    
+    .user-review h4 {
+        margin-bottom: 5px !important;
+    }
+    
+    .review-section {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 20px 40px;
+        background-color: white;
+    }
+    
+    .Review-form li .rating-1,
+    .Review-form li .rating-2,
+    .Review-form li .rating-3,
+    .Review-form li .rating-4,
+    .Review-form li .rating-5 {
+        display: none;
+    }
+    
+    .Review-form li {
+        padding: 0px;
+    }
+    
+    .Review-form ul {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    
+    @media(max-width:760px) {
+        .hide-desc {
+            display: none;
+        }
+        .sy-pager {
+            display: none !important;
+        }
+        .company-name h1 {
+            font-size: 30px;
+        }
+        .company-name {
+            padding-top: 60px;
+        }
+        .list-in .rate {
+            min-width: 35%;
+            margin-top: -50px;
+            background-color: transparent;
+        }
+        .list-in .rate:hover {
+            border: 0px;
+        }
+        .product,
+        .payment,
+        .service {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .review-card {
+            width: 300px;
+        }
+        .map {
+            height: 300px;
+        }
+        #map {
+            height: 300px;
+        }
+        .Review-form input[type=text] {
+            width: 70%;
+        }
+        .review-box textarea {
+            width: 70%;
+            height: 200px;
+        }
+        .give-rate ul {
+            padding-left: 10px;
+            padding-top: 20px;
+            margin-bottom: -10px;
+            margin-top: 20px;
+        }
+    }
